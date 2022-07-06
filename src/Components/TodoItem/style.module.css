@@ -1,0 +1,87 @@
+.taskBox {
+  padding: 12px;
+  display:flex;
+  align-items: center;
+  color:rgb(224, 224, 224);
+  margin: 12px;
+  background-color: rgba(255, 255, 255, 0.342);
+  width: 60%;
+  border-radius: 12px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.titleDone {
+  font-size: 16px;
+  color: rgb(71, 204, 160);
+  text-decoration: line-through;
+}
+
+
+.formCheck {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btnBox {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.formCheckInput {
+  margin-right: 25px;
+}
+
+.edButton {
+  user-select: none;
+  margin: 0px 5px;
+  padding: 5px 10px;
+  background-color: rgba(101, 101, 170, 0.836);
+  border-radius: 12px;
+  width: 42.391px;
+  height: 18px;
+  text-align: center;
+}
+
+.delButton {
+  user-select: none;
+  margin: 0px 5px;
+  padding: 5px 10px;
+  background-color: rgb(141, 92, 85);
+  border-radius: 12px;
+}
+
+.delButton:hover {
+  background-color: rgb(189, 74, 57);
+}
+
+.edButton:hover {
+  background-color: rgba(70, 70, 204, 0.836);
+}
+
+.editInput {
+  width: 70%;
+  padding: 7px;
+  border: 0px solid #ffffff00;
+  outline:none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.626);
+}
+
+.editBtn {
+  color: #ffffff;
+  font-size: 16px;
+  border: 0px solid #ffffff00;
+  box-shadow: none;
+  user-select: none;
+  margin: 0px 5px;
+  padding: 5px 10px;
+  background-color: rgba(50, 197, 62, 0.561);
+  border-radius: 12px;
+  font-weight: 400;
+}

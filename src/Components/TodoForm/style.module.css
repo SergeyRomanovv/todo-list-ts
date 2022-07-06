@@ -1,0 +1,41 @@
+.mainBox {
+  margin: 200px 0px 40px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  outline:none;
+  background-color: rgba(248, 248, 248, 0.733);
+  font-size: 16px;
+  padding-left: 15px;
+  border: 0px solid #ffffff00;
+  border-radius: 12px 0px 0px 12px;
+  height: 35px;
+  width: 66%;
+}
+
+.btn {
+  background-color: #599e84cc;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 5px 20px;
+  border: 0px solid #ffffff00;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.btn:hover {
+  background-color: #2cca8ecc;
+}
+
+.input::placeholder {
+  color: rgb(91, 91, 129);
+  font-size: 16px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
